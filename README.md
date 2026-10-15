@@ -1,16 +1,80 @@
-# React + Vite
+# Doctor Directory Web App 🩺
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive doctor directory web application built with React. The project provides a user-friendly interface for exploring doctors, viewing their specializations, and accessing individual doctor details.
 
-Currently, two official plugins are available:
+This project is currently focused on the **frontend**, with scope for future backend integration and appointment-booking functionality.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- Browse doctor profiles
+- View doctor information, including specialization and experience
+- Individual doctor detail pages
+- Client-side navigation using React Router
+- Reusable React components
+- Responsive user interface
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- **Frontend:** React.js, JavaScript, HTML5, CSS3
+- **Routing:** React Router DOM
+- **Development Tools:** Vite, npm, VS Code
+- **Version Control:** Git and GitHub
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js and npm installed on your system
+- Git installed on your system
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/aditi-verma-dev/Doctor-Directory-Web-App.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd Doctor-Directory-Web-App
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL displayed in your terminal.
+
+## 📁 Project Status
+
+**Status:** Frontend development in progress.
+
+The current focus is on doctor listings, profile details, and navigation. Backend integration, database connectivity, and functional appointment booking are planned for future development and are not yet implemented.
+
+## 🔮 Future Improvements
+
+- Integrate a Spring Boot backend
+- Connect a database to manage doctor information
+- Implement appointment booking functionality
+- Add form validation and user feedback
+- Add authentication if required
+
+## 👩‍💻 Author
+
+**Aditi Verma**
+
+- GitHub: [@aditi-verma-dev](https://github.com/aditi-verma-dev)
+
+---
+
+*Built as a learning project to practice React development and frontend application structure.*
